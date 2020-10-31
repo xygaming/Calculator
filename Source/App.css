@@ -1,6 +1,8 @@
 * {
     max-width: 100%;
     box-sizing: border-box;
+    -moz-user-select: none;
+    user-select: none;
 }
 button {
     margin: 0;
@@ -32,6 +34,8 @@ td {
 }
 #nums {
     max-width: 100%;
+    -moz-user-select: all;
+    user-select: all;
 }
 .numContain {
     width: 100%;

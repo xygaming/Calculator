@@ -48,7 +48,7 @@ class App extends React.Component {
         }
         (document.getElementById("nums") as HTMLSpanElement).textContent += num;
       } else {
-          (document.getElementById("nums") as HTMLSpanElement).textContent = num;
+        (document.getElementById("nums") as HTMLSpanElement).textContent = num;
       }
     } else if (this.state.canIn && this.state.showingSolut) {
       (document.getElementById("nums") as HTMLSpanElement).textContent = num;
